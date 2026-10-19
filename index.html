@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Tristan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h2>Tristan<span>.</span></h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Skill</a>
+      <a href="#contact">Kontak</a>
+    
+<button id="themeToggle" type="button" aria-label="Ganti tema">
+  ☀️
+</button>
+</nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="label">HALO, SELAMAT DATANG 👋</p>
+      <h1>Hai, aku <span>Tristan</span></h1>
+      
+<h2>Aku seorang <span id="typing">Web Developer</span></h2>
+
+      <p>Aku sedang belajar membuat website dengan HTML dan CSS.</p>
+      <a class="button" href="#about">Kenali Aku →</a>
+    </section>
+
+    <section id="about">
+      <h2>Tentang Aku</h2>
+      <p>Aku pelajar SMK yang ingin belajar dan mengembangkan website.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skill yang Kupelajari</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML</h3>
+          <p>Membuat struktur website.</p>
+        </article>
+        <article class="card">
+          <h3>CSS</h3>
+          <p>Mengatur desain website.</p>
+        </article>
+        <article class="card">
+          <h3>VS Code</h3>
+          <p>Menulis dan mengelola kode.</p>
+        </article>
+      </div>
+    </section>
+
+  
+<section id="contact">
+  <h2>Hubungi Aku</h2>
+  <p>Punya pertanyaan atau ingin bekerja sama? Kirim pesan kepadaku!</p>
+
+  <form id="contactForm" class="contact-form">
+    <label for="nama">Nama</label>
+    <input
+      type="text"
+      id="nama"
+      name="nama"
+      placeholder="Masukkan nama kamu"
+      required
+    >
+
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="nama@email.com"
+      required
+    >
+
+    <label for="pesan">Pesan</label>
+    <textarea
+      id="pesan"
+      name="pesan"
+      rows="5"
+      placeholder="Tulis pesan kamu di sini..."
+      required
+    ></textarea>
+
+    <button type="submit" class="button">
+      Kirim Pesan →
+    </button>
+  </form>
+</section>
+
+  
+<section id="projects">
+  <h2>Proyek Saya</h2>
+  <p>Beberapa proyek latihan yang sedang aku kembangkan.</p>
+
+  <div class="cards">
+    <article class="card project-card">
+      <div class="project-icon">💻</div>
+      <h3>Website Portofolio</h3>
+      <p>Website pribadi untuk memperkenalkan diri dan menampilkan skill yang sedang kupelajari.</p>
+      <span class="project-tag">HTML • CSS • JavaScript</span>
+      
+<a class="project-link" href="#home">
+  Lihat Proyek ↑
+</a>
+
+    </article>
+
+    <article class="card project-card">
+      <div class="project-icon">🎨</div>
+      <h3>Desain Percetakan</h3>
+      <p>Latihan merancang tampilan promosi dan desain untuk kebutuhan percetakan.</p>
+      <span class="project-tag">Desain Grafis</span>
+    </article>
+
+    <article class="card project-card">
+      <div class="project-icon">🚀</div>
+      <h3>Latihan Web</h3>
+      <p>Kumpulan latihan untuk memahami struktur HTML, styling CSS, dan interaksi JavaScript.</p>
+      <span class="project-tag">Proyek Belajar</span>
+    </article>
+  </div>
+</section>
+<footer>
+    <p>© 2026 Tristan. Terus belajar dan berkembang.</p>
+  </footer>
+
+<button id="backToTop" aria-label="Kembali ke atas" title="Kembali ke atas">↑</button>
+</body>
+</html>
